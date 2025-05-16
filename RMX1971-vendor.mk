@@ -696,11 +696,6 @@ PRODUCT_PACKAGES += \
     qcrild_librilutils \
     qtibus \
     qtimutex \
-    libBeautyShot_skel \
-    libdsp_streamer_add_constant \
-    libdsp_streamer_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hvx \
@@ -838,9 +833,6 @@ PRODUCT_PACKAGES += \
     libwfdavenhancements \
     libwfdmmsrc_system \
     libwfdservice \
-    libaiboost_skel \
-    libaiboost_skel_v65 \
-    libaiboost_skel_v66 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     com.qualcomm.qti.ant@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
