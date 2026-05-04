@@ -4,7 +4,7 @@
 
 soong_namespace {
     imports: [
-        "device/realme/RMX1971",
+        "device/realme/RMX1851",
         "hardware/qcom-caf/sdm845",
         "hardware/qcom-caf/wlan",
         "vendor/qcom/opensource/commonsys-intf/display",
