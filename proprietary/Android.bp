@@ -36,24 +36,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "com.dsi.ant@1.0",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: ["vendor/lib/com.dsi.ant@1.0.so"],
-        },
-        android_arm64: {
-            srcs: ["vendor/lib64/com.dsi.ant@1.0.so"],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
+// Removed to prevent partition collision
 
 cc_prebuilt_library_shared {
     name: "libAlacSwDec",
@@ -1174,24 +1157,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.biometrics.fingerprint@2.1",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: ["odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so"],
-        },
-        android_arm64: {
-            srcs: ["odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so"],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
+// Removed to prevent partition collision
 
 cc_prebuilt_library_shared {
     name: "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl",
